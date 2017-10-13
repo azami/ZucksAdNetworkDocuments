@@ -1,0 +1,71 @@
+.zucks-native .zucks-native-description {
+    display: table;
+    height: 54px;
+}
+.zucks-native p {
+    margin: 0px;
+}
+.zucks-native .zucks-native-image {
+    float:left;
+    width: 54px;
+    margin-right: 5px;
+}
+.zucks-native :-webkit-any-link {
+    text-decoration: none !important;
+}
+.zucks-native .zucks-native-title {
+    font-weight:bold;
+    font-size: 10px;
+    text-decoration: underline;
+    color: #000;
+    word-wrap: break-word;
+    white-space: normal;
+    display: inline-block;
+}
+.zucks-native .zucks-native-row {
+    display: table;
+    width: 100%;
+}
+.zucks-native .zucks-native-row > div {
+    display: table-cell;
+}
+.zucks-native-text {
+    font-size: 8px;
+    color: #666;
+    float: left;
+    margin-right: 5px;
+}
+.zucks-native .zucks-native-text > div {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.zucks-native .zucks-native-button {
+    background-color: #3366ff;
+    color: #fff;
+    border: none;
+    font-size: 9px;
+    white-space: nowrap;
+    vertical-align: top;
+    text-align: center;
+    height: 28px;
+    line-height: 28px;
+    width: 73px;
+
+}
+.zucks-native .zucks-native-sponsored {
+    color: #999;
+    font-size: 7px;
+    table-layout: fixed;
+    height: 11px;
+}
+.zucks-native .zucks-native-sponsored > div {
+    vertical-align: bottom;
+}
+.zucks-native .zucks-native-sponsored p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
